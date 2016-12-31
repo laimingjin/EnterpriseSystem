@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: businesslogicTest.CommodityBLServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec <<< FAILURE!
+businesslogicTest.CommodityBLServiceTest.testGetCommodityByID()  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testGetCommodityByID(CommodityBLServiceTest.java:22)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+businesslogicTest.CommodityBLServiceTest.testGetCommoditySort()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testGetCommoditySort(CommodityBLServiceTest.java:15)
+businesslogicTest.CommodityBLServiceTest.testUpdateCommodity()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testUpdateCommodity(CommodityBLServiceTest.java:63)
+businesslogicTest.CommodityBLServiceTest.testAddCommodity()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testAddCommodity(CommodityBLServiceTest.java:53)
+businesslogicTest.CommodityBLServiceTest.testGetCommoditySnapshot()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testGetCommoditySnapshot(CommodityBLServiceTest.java:27)
+businesslogicTest.CommodityBLServiceTest.testUpdateCommoditySort()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testUpdateCommoditySort(CommodityBLServiceTest.java:48)
+businesslogicTest.CommodityBLServiceTest.testDeleteCommodity()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testDeleteCommodity(CommodityBLServiceTest.java:58)
+businesslogicTest.CommodityBLServiceTest.testAddCommoditySort()  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testAddCommoditySort(CommodityBLServiceTest.java:37)
+businesslogicTest.CommodityBLServiceTest.testDeleteCommoditySort()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testDeleteCommoditySort(CommodityBLServiceTest.java:43)
+businesslogicTest.CommodityBLServiceTest.testEndManagement()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testEndManagement(CommodityBLServiceTest.java:68)
+businesslogicTest.CommodityBLServiceTest.testCheckCommodityInventory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testCheckCommodityInventory(CommodityBLServiceTest.java:32)
+businesslogicTest.CommodityBLServiceTest.testCreateDocument()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at businesslogicTest.CommodityBLServiceTest.testCreateDocument(CommodityBLServiceTest.java:74)

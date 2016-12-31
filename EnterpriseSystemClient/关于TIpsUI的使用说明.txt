@@ -1,0 +1,8 @@
+现在将TipsUI分了两类
+1、MySuccessTipsUI:用于显示操作成功。按确定键的时候会关闭TipsFrame和InputFrame
+      使用它的时候需要给它TipsFrame，它的背景以及它要关闭的InputPanel
+      现在所有的InputPanel都继承了SuperInputPanel，以后新增的时候也需要继承一下，
+      这样才能使用SuccessTipsUI的关闭功能
+2、MyFailTipsUI:用于显示操作错误以及操作成功且不需要关闭窗口的情况
+      使用时给它TipsFrame，它的背景
+      就是和之前的TipsUI一样使用就可以了

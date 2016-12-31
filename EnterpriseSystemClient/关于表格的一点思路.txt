@@ -1,0 +1,10 @@
+1、纠结了很久要不要自己写一个MyTable类；又好像没什么必要
+回头和线线讨论一下好了=。=代码优劣性不懂
+2、得到JTable之后，如果需要新增数据，可以使用这样的语句：
+JTable jTable=new JTable();
+Vector<Object> dataRow; 
+DefaultTable dtm=(DefaultTableModel)jTable.getModel();
+dtm.addRow(dataRow);
+3、表格的监听由TableModelListener负责
+监听应该是在相应的Panel类里添加吧
+感觉panel类会很长很长，莫慌！
